@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ItemKey__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>This is the item key from our external ERP system.  It will be used as the external ID for all imports from the ERP</description>
+    <externalId>true</externalId>
+    <label>ItemKey</label>
+    <length>255</length>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

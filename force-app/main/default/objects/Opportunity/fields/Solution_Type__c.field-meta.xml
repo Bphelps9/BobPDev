@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solution_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Solution Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>100 BC Eng</fullName>
+                <default>false</default>
+                <label>100 BC Eng</label>
+            </value>
+            <value>
+                <fullName>100 BC Eng &amp; Span</fullName>
+                <default>false</default>
+                <label>100 BC Eng &amp; Span</label>
+            </value>
+            <value>
+                <fullName>100 BC Span</fullName>
+                <default>false</default>
+                <label>100 BC Span</label>
+            </value>
+            <value>
+                <fullName>ARC Core Eng</fullName>
+                <default>false</default>
+                <label>ARC Core Eng</label>
+            </value>
+            <value>
+                <fullName>ARC Core Eng &amp; Span</fullName>
+                <default>false</default>
+                <label>ARC Core Eng &amp; Span</label>
+            </value>
+            <value>
+                <fullName>ARC Core Span</fullName>
+                <default>false</default>
+                <label>ARC Core Span</label>
+            </value>
+            <value>
+                <fullName>Classroom Lib/Text</fullName>
+                <default>false</default>
+                <label>Classroom Lib/Text</label>
+            </value>
+            <value>
+                <fullName>ENIL Starter</fullName>
+                <default>false</default>
+                <label>ENIL Starter</label>
+            </value>
+            <value>
+                <fullName>IRLA Starter</fullName>
+                <default>false</default>
+                <label>IRLA Starter</label>
+            </value>
+            <value>
+                <fullName>IRLA/ENIL Starter</fullName>
+                <default>false</default>
+                <label>IRLA/ENIL Starter</label>
+            </value>
+            <value>
+                <fullName>Leadership Learning Series</fullName>
+                <default>false</default>
+                <label>Leadership Learning Series</label>
+            </value>
+            <value>
+                <fullName>Lit Labs Eng</fullName>
+                <default>false</default>
+                <label>Lit Labs Eng</label>
+            </value>
+            <value>
+                <fullName>Lit Labs Eng &amp; Span</fullName>
+                <default>false</default>
+                <label>Lit Labs Eng &amp; Span</label>
+            </value>
+            <value>
+                <fullName>Lit Labs Span</fullName>
+                <default>false</default>
+                <label>Lit Labs Span</label>
+            </value>
+            <value>
+                <fullName>Professional Development</fullName>
+                <default>false</default>
+                <label>Professional Development</label>
+            </value>
+            <value>
+                <fullName>Research Labs Eng</fullName>
+                <default>false</default>
+                <label>Research Labs Eng</label>
+            </value>
+            <value>
+                <fullName>Research Lab Eng &amp; Span</fullName>
+                <default>false</default>
+                <label>Research Lab Eng &amp; Span</label>
+            </value>
+            <value>
+                <fullName>Research Span</fullName>
+                <default>false</default>
+                <label>Research Span</label>
+            </value>
+            <value>
+                <fullName>Summer Semester</fullName>
+                <default>false</default>
+                <label>Summer Semester</label>
+            </value>
+            <value>
+                <fullName>Take Home Kits</fullName>
+                <default>false</default>
+                <label>Take Home Kits</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

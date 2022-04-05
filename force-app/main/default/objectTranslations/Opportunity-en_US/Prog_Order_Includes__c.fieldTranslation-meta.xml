@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Prog_Order_Includes__c</name>
+    <picklistValues>
+        <masterLabel>100 BC - (English and/or Spanish)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARC Core - (English and/or Spanish)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Both 100 BC and ARC Core - (English and/or Spanish)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specific Core Text Reorder</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

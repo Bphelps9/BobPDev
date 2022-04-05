@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARC_Opportunity_Product_Compact_Layout</fullName>
+    <fields>ARC_Sage_LongDesc__c</fields>
+    <fields>OpportunityId</fields>
+    <fields>OP_Item_Heading__c</fields>
+    <fields>ARC_Sage_Subheading__c</fields>
+    <fields>Product2Id</fields>
+    <fields>Kit_Components__c</fields>
+    <label>ARC_Opportunity_Product_Compact_Layout</label>
+</CompactLayout>

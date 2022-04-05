@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMG_WF__All_Active</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>CRMG_WF__Evaluation_Criteria__c</columns>
+    <columns>NAME</columns>
+    <columns>CRMG_WF__Object__c</columns>
+    <columns>CRMG_WF__Object_Label__c</columns>
+    <columns>CRMG_WF__Rule_Criteria_Query__c</columns>
+    <columns>CRMG_WF__Rule_Criteria_Labled__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>CRMG_WF__Rule_Criteria__c</columns>
+    <columns>CRMG_WF__Description__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CRMG_WF__isActive__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>2. All Active</label>
+</ListView>

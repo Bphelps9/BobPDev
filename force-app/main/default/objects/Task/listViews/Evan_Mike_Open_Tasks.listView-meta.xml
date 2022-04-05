@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Evan_Mike_Open_Tasks</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>DUE_DATE</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>SUBJECT</columns>
+    <columns>STATUS</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Glasson</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Silva</value>
+    </filters>
+    <label>Evan &amp; Kyle Open Tasks</label>
+    <sharedTo>
+        <group>Evan_and_Kyle</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prog_Order_Includes__c</fullName>
+    <externalId>false</externalId>
+    <label>This Order Includes Custom</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>100 BC - (English and/or Spanish)</fullName>
+                <default>false</default>
+                <label>100 BC - (English and/or Spanish)</label>
+            </value>
+            <value>
+                <fullName>ARC Core - (English and/or Spanish)</fullName>
+                <default>false</default>
+                <label>ARC Core - (English and/or Spanish)</label>
+            </value>
+            <value>
+                <fullName>Both 100 BC and ARC Core - (English and/or Spanish)</fullName>
+                <default>false</default>
+                <label>Both 100 BC and ARC Core - (English and/or Spanish)</label>
+            </value>
+            <value>
+                <fullName>Specific Core Text Reorder</fullName>
+                <default>false</default>
+                <label>Specific Core Text Reorder</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

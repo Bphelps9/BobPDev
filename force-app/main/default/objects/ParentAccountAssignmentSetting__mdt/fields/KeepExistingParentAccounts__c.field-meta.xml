@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KeepExistingParentAccounts__c</fullName>
+    <defaultValue>true</defaultValue>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Unchecking this checkbox will cause Accounts with Parent Accounts to be overridden by the Parent NCES ID value.</inlineHelpText>
+    <label>Keep Existing Parent Accounts</label>
+    <type>Checkbox</type>
+</CustomField>

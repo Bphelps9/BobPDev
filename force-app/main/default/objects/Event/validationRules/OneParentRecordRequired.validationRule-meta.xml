@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OneParentRecordRequired</fullName>
+    <active>false</active>
+    <description>At least one parent record has to be selected.</description>
+    <errorConditionFormula>ISBLANK(Account__c)
+&amp;&amp;
+ISBLANK(Opportunity__c)
+&amp;&amp;
+ISBLANK(Contact__c)</errorConditionFormula>
+    <errorMessage>Please input at least one of the following values: Account, Opportunity, Contact</errorMessage>
+</ValidationRule>

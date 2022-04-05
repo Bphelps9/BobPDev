@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Account_Manager_Create</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISNEW()
+&amp;&amp;
+$Profile.Name = &apos;Account Manager&apos;</errorConditionFormula>
+    <errorMessage>Please contact your PC to create this Account if there is not already an existing Account in Salesforce.</errorMessage>
+</ValidationRule>

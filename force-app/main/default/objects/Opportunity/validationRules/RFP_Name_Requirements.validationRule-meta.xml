@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RFP_Name_Requirements</fullName>
+    <active>false</active>
+    <errorConditionFormula>If( CASESAFEID( RecordTypeId )= &apos;0123h000000tuXJAAY&apos;,
+ NOT( OR( CONTAINS( Name , &apos;rfp&apos; ) ,CONTAINS( Name , &apos;rfi&apos;),CONTAINS( Name , &apos;rfq&apos;),
+ CONTAINS( Name , &apos;RFP&apos;) ,CONTAINS( Name , &apos;RFI&apos; ),CONTAINS( Name , &apos;RFQ&apos;)) )
+,false)</errorConditionFormula>
+    <errorMessage>Please make sure that &apos;RFP&apos;, &apos;RFI&apos;, or &apos;RFQ&apos; is in this opportunity&apos;s name.</errorMessage>
+</ValidationRule>

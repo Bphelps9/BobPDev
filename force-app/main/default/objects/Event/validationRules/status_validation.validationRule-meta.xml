@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>status_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(   ISPICKVAL(  EventStatus__c  ,&apos;Cancelled&apos;)  ,   ISPICKVAL(Status_Reason__c , &apos;&apos;)  , false)</errorConditionFormula>
+    <errorDisplayField>Status_Reason__c</errorDisplayField>
+    <errorMessage>Please select a reason that the meeting did not occur.</errorMessage>
+</ValidationRule>

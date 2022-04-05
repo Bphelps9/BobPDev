@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interest_Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Interest Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advisory board</fullName>
+                <default>false</default>
+                <label>Advisory board</label>
+            </value>
+            <value>
+                <fullName>ARC summit event</fullName>
+                <default>false</default>
+                <label>ARC summit event</label>
+            </value>
+            <value>
+                <fullName>Colloquium</fullName>
+                <default>false</default>
+                <label>Colloquium</label>
+            </value>
+            <value>
+                <fullName>Conference Booth/networking</fullName>
+                <default>false</default>
+                <label>Conference Booth/networking</label>
+            </value>
+            <value>
+                <fullName>Ed Reports</fullName>
+                <default>false</default>
+                <label>Ed Reports</label>
+            </value>
+            <value>
+                <fullName>Existing relationship</fullName>
+                <default>false</default>
+                <label>Existing relationship</label>
+            </value>
+            <value>
+                <fullName>IRLA/ENIL demo</fullName>
+                <default>false</default>
+                <label>IRLA/ENIL demo</label>
+            </value>
+            <value>
+                <fullName>National email blast</fullName>
+                <default>false</default>
+                <label>National email blast</label>
+            </value>
+            <value>
+                <fullName>Personal email</fullName>
+                <default>false</default>
+                <label>Personal email</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>RFP</fullName>
+                <default>false</default>
+                <label>RFP</label>
+            </value>
+            <value>
+                <fullName>Seeing is believing</fullName>
+                <default>false</default>
+                <label>Seeing is believing</label>
+            </value>
+            <value>
+                <fullName>Territory E-blast</fullName>
+                <default>false</default>
+                <label>Territory E-blast</label>
+            </value>
+            <value>
+                <fullName>Web lead</fullName>
+                <default>false</default>
+                <label>Web lead</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Push In Placeholder</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Push In Placeholder</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

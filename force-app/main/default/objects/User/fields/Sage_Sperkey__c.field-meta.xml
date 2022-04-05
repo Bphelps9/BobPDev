@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sage_Sperkey__c</fullName>
+    <description>Sperkey from the tarsalesperson table in Sage This is manually entered</description>
+    <externalId>false</externalId>
+    <label>Sage Sperkey</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>true</unique>
+</CustomField>

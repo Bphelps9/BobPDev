@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implementing_Grades_Validation</fullName>
+    <active>false</active>
+    <errorConditionFormula>If( RecordTypeId =&apos;01211000002K3LtAAK&apos;  ,If(
+INCLUDES(Solution_Type__c, &apos;100 BC Eng&apos;) || INCLUDES(Solution_Type__c, &apos;ARC Core Eng&apos;)
+,
+ ISNULL( Implementing_Grades__c ) 
+,false ),false)</errorConditionFormula>
+    <errorMessage>Please fill out the &apos;Implementing Grades&apos; field for this validation.</errorMessage>
+</ValidationRule>

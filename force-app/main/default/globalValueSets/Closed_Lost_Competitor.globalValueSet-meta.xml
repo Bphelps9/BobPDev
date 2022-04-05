@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Not ARC Core</fullName>
+        <default>false</default>
+        <label>Not ARC Core</label>
+    </customValue>
+    <customValue>
+        <fullName>All About Reading</fullName>
+        <default>false</default>
+        <label>All About Reading</label>
+    </customValue>
+    <customValue>
+        <fullName>Amplify</fullName>
+        <default>false</default>
+        <label>Amplify</label>
+    </customValue>
+    <customValue>
+        <fullName>Benchmark Advance (Benchmark)</fullName>
+        <default>false</default>
+        <label>Benchmark Advance (Benchmark)</label>
+    </customValue>
+    <customValue>
+        <fullName>Bookworms (Open Up)</fullName>
+        <default>false</default>
+        <label>Bookworms (Open Up)</label>
+    </customValue>
+    <customValue>
+        <fullName>CKLA (Core Knowledge)</fullName>
+        <default>false</default>
+        <label>CKLA (Core Knowledge)</label>
+    </customValue>
+    <customValue>
+        <fullName>Collaborative Classroom</fullName>
+        <default>false</default>
+        <label>Collaborative Classroom</label>
+    </customValue>
+    <customValue>
+        <fullName>Collections (HMH)</fullName>
+        <default>false</default>
+        <label>Collections (HMH)</label>
+    </customValue>
+    <customValue>
+        <fullName>District-Created Curriculum</fullName>
+        <default>false</default>
+        <label>District-Created Curriculum</label>
+    </customValue>
+    <customValue>
+        <fullName>EL Education Modules</fullName>
+        <default>false</default>
+        <label>EL Education Modules</label>
+    </customValue>
+    <customValue>
+        <fullName>ELA Guidebooks (LADOE)</fullName>
+        <default>false</default>
+        <label>ELA Guidebooks (LADOE)</label>
+    </customValue>
+    <customValue>
+        <fullName>F&amp;P Classroom (F&amp;P)</fullName>
+        <default>false</default>
+        <label>F&amp;P Classroom (F&amp;P)</label>
+    </customValue>
+    <customValue>
+        <fullName>Into Literature (HMH)</fullName>
+        <default>false</default>
+        <label>Into Literature (HMH)</label>
+    </customValue>
+    <customValue>
+        <fullName>Into Reading (HMH)</fullName>
+        <default>false</default>
+        <label>Into Reading (HMH)</label>
+    </customValue>
+    <customValue>
+        <fullName>Journeys (HMH)</fullName>
+        <default>false</default>
+        <label>Journeys (HMH)</label>
+    </customValue>
+    <customValue>
+        <fullName>My Perspective (Savvas)</fullName>
+        <default>false</default>
+        <label>My Perspective (Savvas)</label>
+    </customValue>
+    <customValue>
+        <fullName>Reach for Reading (Cengage)</fullName>
+        <default>false</default>
+        <label>Reach for Reading (Cengage)</label>
+    </customValue>
+    <customValue>
+        <fullName>Reading Street (Savvas)</fullName>
+        <default>false</default>
+        <label>Reading Street (Savvas)</label>
+    </customValue>
+    <customValue>
+        <fullName>ReadyGen (Savvas)</fullName>
+        <default>false</default>
+        <label>ReadyGen (Savvas)</label>
+    </customValue>
+    <customValue>
+        <fullName>Scholastic Literacy (Scholastic)</fullName>
+        <default>false</default>
+        <label>Scholastic Literacy (Scholastic)</label>
+    </customValue>
+    <customValue>
+        <fullName>Springboard (College Board)</fullName>
+        <default>false</default>
+        <label>Springboard (College Board)</label>
+    </customValue>
+    <customValue>
+        <fullName>Status Quo</fullName>
+        <default>false</default>
+        <label>Status Quo</label>
+    </customValue>
+    <customValue>
+        <fullName>Storytown (HMH)</fullName>
+        <default>false</default>
+        <label>Storytown (HMH)</label>
+    </customValue>
+    <customValue>
+        <fullName>Studysync (McGraw-Hill)</fullName>
+        <default>false</default>
+        <label>Studysync (McGraw-Hill)</label>
+    </customValue>
+    <customValue>
+        <fullName>Units of Study (Lucy Caulkins/Heinemann)</fullName>
+        <default>false</default>
+        <label>Units of Study (Lucy Caulkins/Heinemann)</label>
+    </customValue>
+    <customValue>
+        <fullName>Wit &amp; Wisdom (Great Minds)</fullName>
+        <default>false</default>
+        <label>Wit &amp; Wisdom (Great Minds)</label>
+    </customValue>
+    <customValue>
+        <fullName>Wonders (McGraw-Hill)</fullName>
+        <default>false</default>
+        <label>Wonders (McGraw-Hill)</label>
+    </customValue>
+    <customValue>
+        <fullName>No Competitor</fullName>
+        <default>false</default>
+        <label>No Competitor</label>
+    </customValue>
+    <customValue>
+        <fullName>Push In Placeholder</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Push In Placeholder</label>
+    </customValue>
+    <masterLabel>Closed Lost Competitor</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

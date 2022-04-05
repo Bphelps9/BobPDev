@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issue__c</fullName>
+    <description>Ticket Area renamed to Issue</description>
+    <externalId>false</externalId>
+    <label>Issue</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Address Issue</fullName>
+                <default>false</default>
+                <label>Address Issue</label>
+            </value>
+            <value>
+                <fullName>Book Content</fullName>
+                <default>false</default>
+                <label>Book Content</label>
+            </value>
+            <value>
+                <fullName>Books Falling Apart</fullName>
+                <default>false</default>
+                <label>Books Falling Apart</label>
+            </value>
+            <value>
+                <fullName>Damaged Product</fullName>
+                <default>false</default>
+                <label>Damaged Product</label>
+            </value>
+            <value>
+                <fullName>Duplicate Product</fullName>
+                <default>false</default>
+                <label>Duplicate Product</label>
+            </value>
+            <value>
+                <fullName>Incomplete Product</fullName>
+                <default>false</default>
+                <label>Incomplete Product</label>
+            </value>
+            <value>
+                <fullName>Invoice Problems</fullName>
+                <default>false</default>
+                <label>Invoice Problems</label>
+            </value>
+            <value>
+                <fullName>Labeling Error</fullName>
+                <default>false</default>
+                <label>Labeling Error</label>
+            </value>
+            <value>
+                <fullName>Language</fullName>
+                <default>false</default>
+                <label>Language</label>
+            </value>
+            <value>
+                <fullName>Missing Product</fullName>
+                <default>false</default>
+                <label>Missing Product</label>
+            </value>
+            <value>
+                <fullName>Professional Development</fullName>
+                <default>false</default>
+                <label>Professional Development</label>
+            </value>
+            <value>
+                <fullName>Spectrum Error</fullName>
+                <default>false</default>
+                <label>Spectrum Error</label>
+            </value>
+            <value>
+                <fullName>Wrong Product</fullName>
+                <default>false</default>
+                <label>Wrong Product</label>
+            </value>
+            <value>
+                <fullName>Delivery Issue</fullName>
+                <default>false</default>
+                <label>Delivery Issue</label>
+            </value>
+            <value>
+                <fullName>Digital Reporting</fullName>
+                <default>false</default>
+                <label>Digital Reporting</label>
+            </value>
+            <value>
+                <fullName>Rostering</fullName>
+                <default>false</default>
+                <label>Rostering</label>
+            </value>
+            <value>
+                <fullName>Software Bug</fullName>
+                <default>false</default>
+                <label>Software Bug</label>
+            </value>
+            <value>
+                <fullName>14/004DG</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>14/004DG</label>
+            </value>
+            <value>
+                <fullName>ARC Press</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ARC Press</label>
+            </value>
+            <value>
+                <fullName>ARC Press Distribution</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ARC Press Distribution</label>
+            </value>
+            <value>
+                <fullName>Back Orders</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Back Orders</label>
+            </value>
+            <value>
+                <fullName>Binders</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Binders</label>
+            </value>
+            <value>
+                <fullName>Broken</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Broken</label>
+            </value>
+            <value>
+                <fullName>Broken Baskets</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Broken Baskets</label>
+            </value>
+            <value>
+                <fullName>CCSS Colloquium</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CCSS Colloquium</label>
+            </value>
+            <value>
+                <fullName>Company Description</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Company Description</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>Conference Session/Workshop</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Conference Session/Workshop</label>
+            </value>
+            <value>
+                <fullName>Correct quantities not sent</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Correct quantities not sent</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Customer Changed Mind</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customer Changed Mind</label>
+            </value>
+            <value>
+                <fullName>Customer Concerns</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customer Concerns</label>
+            </value>
+            <value>
+                <fullName>Customized Materials</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customized Materials</label>
+            </value>
+            <value>
+                <fullName>Customized Webpage/Slick</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customized Webpage/Slick</label>
+            </value>
+            <value>
+                <fullName>Damaged</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Damaged</label>
+            </value>
+            <value>
+                <fullName>Damaged Box</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Damaged Box</label>
+            </value>
+            <value>
+                <fullName>Design</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Design</label>
+            </value>
+            <value>
+                <fullName>Digital</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Digital</label>
+            </value>
+            <value>
+                <fullName>Digital Fulfillment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Digital Fulfillment</label>
+            </value>
+            <value>
+                <fullName>Digital Materials/Software</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Digital Materials/Software</label>
+            </value>
+            <value>
+                <fullName>Digital Products/Subscriptions</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Digital Products/Subscriptions</label>
+            </value>
+            <value>
+                <fullName>Direct Mailing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Direct Mailing</label>
+            </value>
+            <value>
+                <fullName>Duplicate Invoice</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Duplicate Invoice</label>
+            </value>
+            <value>
+                <fullName>Event/Conference</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Event/Conference</label>
+            </value>
+            <value>
+                <fullName>Exchange</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Exchange</label>
+            </value>
+            <value>
+                <fullName>FTP access</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FTP access</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Gift to School</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Gift to School</label>
+            </value>
+            <value>
+                <fullName>Glued pages</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Glued pages</label>
+            </value>
+            <value>
+                <fullName>Grant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Grant</label>
+            </value>
+            <value>
+                <fullName>Handouts</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Handouts</label>
+            </value>
+            <value>
+                <fullName>Honor Roll</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Honor Roll</label>
+            </value>
+            <value>
+                <fullName>Incorrect Mapping</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Incorrect Mapping</label>
+            </value>
+            <value>
+                <fullName>Internal Concerns</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Internal Concerns</label>
+            </value>
+            <value>
+                <fullName>Invitation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Invitation</label>
+            </value>
+            <value>
+                <fullName>Lunch/Dinner Event</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lunch/Dinner Event</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Missing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Missing</label>
+            </value>
+            <value>
+                <fullName>Missing Item</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Missing Item</label>
+            </value>
+            <value>
+                <fullName>NULL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NULL</label>
+            </value>
+            <value>
+                <fullName>Newsletter</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Newsletter</label>
+            </value>
+            <value>
+                <fullName>Non-payment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non-payment</label>
+            </value>
+            <value>
+                <fullName>Operations</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Operations</label>
+            </value>
+            <value>
+                <fullName>Operations - Assembly</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Operations - Assembly</label>
+            </value>
+            <value>
+                <fullName>Operations - Fulfilment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Operations - Fulfilment</label>
+            </value>
+            <value>
+                <fullName>Ops</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ops</label>
+            </value>
+            <value>
+                <fullName>Order Entry</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Order Entry</label>
+            </value>
+            <value>
+                <fullName>Other Publisher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other Publisher</label>
+            </value>
+            <value>
+                <fullName>Overnighted</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Overnighted</label>
+            </value>
+            <value>
+                <fullName>PD Participation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PD Participation</label>
+            </value>
+            <value>
+                <fullName>PD Scheduling</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PD Scheduling</label>
+            </value>
+            <value>
+                <fullName>PDF to Email</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PDF to Email</label>
+            </value>
+            <value>
+                <fullName>Partnerships</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Partnerships</label>
+            </value>
+            <value>
+                <fullName>Printer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Printer</label>
+            </value>
+            <value>
+                <fullName>Product Profile</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product Profile</label>
+            </value>
+            <value>
+                <fullName>Product Promotion</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product Promotion</label>
+            </value>
+            <value>
+                <fullName>Product Release</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product Release</label>
+            </value>
+            <value>
+                <fullName>Program</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Program</label>
+            </value>
+            <value>
+                <fullName>Promote Program/Product</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Promote Program/Product</label>
+            </value>
+            <value>
+                <fullName>Promotional Products</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Promotional Products</label>
+            </value>
+            <value>
+                <fullName>Publisher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Publisher</label>
+            </value>
+            <value>
+                <fullName>Purchase Order</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Purchase Order</label>
+            </value>
+            <value>
+                <fullName>R0929</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>R0929</label>
+            </value>
+            <value>
+                <fullName>RFP1234</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RFP1234</label>
+            </value>
+            <value>
+                <fullName>Received damaged titles</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Received damaged titles</label>
+            </value>
+            <value>
+                <fullName>Receivers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Receivers</label>
+            </value>
+            <value>
+                <fullName>Request Meeting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Request Meeting</label>
+            </value>
+            <value>
+                <fullName>Request for catalogue</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Request for catalogue</label>
+            </value>
+            <value>
+                <fullName>Request for other information</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Request for other information</label>
+            </value>
+            <value>
+                <fullName>Request for samples</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Request for samples</label>
+            </value>
+            <value>
+                <fullName>Request for title availability</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Request for title availability</label>
+            </value>
+            <value>
+                <fullName>Request to purchase/terms</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Request to purchase/terms</label>
+            </value>
+            <value>
+                <fullName>Results</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Results</label>
+            </value>
+            <value>
+                <fullName>Results/Success Announcement</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Results/Success Announcement</label>
+            </value>
+            <value>
+                <fullName>Return  UPS Overgoods</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Return  UPS Overgoods</label>
+            </value>
+            <value>
+                <fullName>SIB</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SIB</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>School</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>School</label>
+            </value>
+            <value>
+                <fullName>SchoolPace</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SchoolPace</label>
+            </value>
+            <value>
+                <fullName>Sent to wrong address</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sent to wrong address</label>
+            </value>
+            <value>
+                <fullName>Shipper</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shipper</label>
+            </value>
+            <value>
+                <fullName>Shorted</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shorted</label>
+            </value>
+            <value>
+                <fullName>Software Development</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Software Development</label>
+            </value>
+            <value>
+                <fullName>Speaker Event</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Speaker Event</label>
+            </value>
+            <value>
+                <fullName>Sponsored Article</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sponsored Article</label>
+            </value>
+            <value>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Supplier</label>
+            </value>
+            <value>
+                <fullName>Unhappy Customer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Unhappy Customer</label>
+            </value>
+            <value>
+                <fullName>Visit Booth</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Visit Booth</label>
+            </value>
+            <value>
+                <fullName>Web-page</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Web-page</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Wrong Destination</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wrong Destination</label>
+            </value>
+            <value>
+                <fullName>Wrong Item</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wrong Item</label>
+            </value>
+            <value>
+                <fullName>Wrong item sent</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wrong item sent</label>
+            </value>
+            <value>
+                <fullName>Wrong ship to</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wrong ship to</label>
+            </value>
+            <value>
+                <fullName>books not stickered</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>books not stickered</label>
+            </value>
+            <value>
+                <fullName>conformity w materials</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>conformity w materials</label>
+            </value>
+            <value>
+                <fullName>core texts</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>core texts</label>
+            </value>
+            <value>
+                <fullName>duplicate order</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>duplicate order</label>
+            </value>
+            <value>
+                <fullName>incorrect billing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>incorrect billing</label>
+            </value>
+            <value>
+                <fullName>invoicing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>invoicing</label>
+            </value>
+            <value>
+                <fullName>items not received</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>items not received</label>
+            </value>
+            <value>
+                <fullName>leveling</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>leveling</label>
+            </value>
+            <value>
+                <fullName>mixed up</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>mixed up</label>
+            </value>
+            <value>
+                <fullName>ommitted</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ommitted</label>
+            </value>
+            <value>
+                <fullName>out of order</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>out of order</label>
+            </value>
+            <value>
+                <fullName>wrong bill to</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>wrong bill to</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

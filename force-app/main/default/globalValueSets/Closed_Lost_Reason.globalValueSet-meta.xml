@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Not ARC Core</fullName>
+        <default>false</default>
+        <label>Not ARC Core</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>High Cost</fullName>
+        <default>false</default>
+        <label>High Cost</label>
+    </customValue>
+    <customValue>
+        <fullName>No Explicit Grammar Instruction</fullName>
+        <default>false</default>
+        <label>No Explicit Grammar Instruction</label>
+    </customValue>
+    <customValue>
+        <fullName>No Explicit Handwriting Instruction</fullName>
+        <default>false</default>
+        <label>No Explicit Handwriting Instruction</label>
+    </customValue>
+    <customValue>
+        <fullName>Insufficient MLL Supports</fullName>
+        <default>false</default>
+        <label>Insufficient MLL Supports</label>
+    </customValue>
+    <customValue>
+        <fullName>Insufficient Digital Resources</fullName>
+        <default>false</default>
+        <label>Insufficient Digital Resources</label>
+    </customValue>
+    <customValue>
+        <fullName>Not on State-Approved List</fullName>
+        <default>false</default>
+        <label>Not on State-Approved List</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Aligned to State Standards</fullName>
+        <default>false</default>
+        <label>Not Aligned to State Standards</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Philosophically Aligned</fullName>
+        <default>false</default>
+        <label>Not Philosophically Aligned</label>
+    </customValue>
+    <customValue>
+        <fullName>Phonics - No Explicit Instruction</fullName>
+        <default>false</default>
+        <label>Phonics - No Explicit Instruction</label>
+    </customValue>
+    <customValue>
+        <fullName>Phonics - Not Whole Group</fullName>
+        <default>false</default>
+        <label>Phonics - Not Whole Group</label>
+    </customValue>
+    <customValue>
+        <fullName>Science of Reading</fullName>
+        <default>false</default>
+        <label>Science of Reading</label>
+    </customValue>
+    <customValue>
+        <fullName>No Explicit Spelling Instruction</fullName>
+        <default>false</default>
+        <label>No Explicit Spelling Instruction</label>
+    </customValue>
+    <customValue>
+        <fullName>Suspended/Abandoned Adoption Process</fullName>
+        <default>false</default>
+        <label>Suspended/Abandoned Adoption Process</label>
+    </customValue>
+    <customValue>
+        <fullName>Timelines</fullName>
+        <default>false</default>
+        <label>Timelines</label>
+    </customValue>
+    <customValue>
+        <fullName>Too Complicated</fullName>
+        <default>false</default>
+        <label>Too Complicated</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Scripted Enough</fullName>
+        <default>false</default>
+        <label>Not Scripted Enough</label>
+    </customValue>
+    <customValue>
+        <fullName>Push In Placeholder</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Push In Placeholder</label>
+    </customValue>
+    <customValue>
+        <fullName>Competition</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Competition</label>
+    </customValue>
+    <customValue>
+        <fullName>Budget</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Abandoned Adoption</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Abandoned Adoption</label>
+    </customValue>
+    <customValue>
+        <fullName>Philosophical Alignment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Philosophical Alignment</label>
+    </customValue>
+    <customValue>
+        <fullName>Timing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Timing</label>
+    </customValue>
+    <masterLabel>Closed Lost Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

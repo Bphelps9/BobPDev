@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>test_dual</fullName>
+    <booleanFilter>1 AND (2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account.AMUser__c</field>
+        <operation>contains</operation>
+        <value>Wendlandt</value>
+    </filters>
+    <filters>
+        <field>CONTACT.TITLE</field>
+        <operation>contains</operation>
+        <value>Dual</value>
+    </filters>
+    <filters>
+        <field>CONTACT.TITLE</field>
+        <operation>contains</operation>
+        <value>Spanish</value>
+    </filters>
+    <filters>
+        <field>CONTACT.TITLE</field>
+        <operation>contains</operation>
+        <value>bilingual</value>
+    </filters>
+    <filters>
+        <field>CONTACT.TITLE</field>
+        <operation>contains</operation>
+        <value>IMM</value>
+    </filters>
+    <filters>
+        <field>CONTACT.TITLE</field>
+        <operation>contains</operation>
+        <value>world language</value>
+    </filters>
+    <filters>
+        <field>CONTACT.TITLE</field>
+        <operation>contains</operation>
+        <value>immersion</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS2_CITY</field>
+        <operation>contains</operation>
+        <value>Minne</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS2_CITY</field>
+        <operation>contains</operation>
+        <value>St. Paul</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS2_CITY</field>
+        <operation>contains</operation>
+        <value>Des Moines</value>
+    </filters>
+    <label>Karen Wendlandt Only -  Spanish</label>
+</ListView>

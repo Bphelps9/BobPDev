@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grant_Funded_Needs_NBD</fullName>
+    <active>true</active>
+    <description>If the grant funded box is checked, the Must Be Received date should be required</description>
+    <errorConditionFormula>AND(
+ISBLANK(Must_Be_Received__c),
+Grant_Funded__c = True
+)</errorConditionFormula>
+    <errorDisplayField>Must_Be_Received__c</errorDisplayField>
+    <errorMessage>Grant Funded checked and no Must Be Received date.</errorMessage>
+</ValidationRule>

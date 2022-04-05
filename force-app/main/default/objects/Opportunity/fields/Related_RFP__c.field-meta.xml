@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_RFP__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field is used to link to a related RFP Opportunity.  This is used to track ROI on an RFP</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Link to the related RFP Opportunity.  This lookup will only show RFP Opportunity record types</inlineHelpText>
+    <label>Related RFP</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>(1 OR 2 OR 3 OR 4 OR 5 OR 6) AND 7</booleanFilter>
+        <filterItems>
+            <field>Opportunity.Name</field>
+            <operation>contains</operation>
+            <value>rfp</value>
+        </filterItems>
+        <filterItems>
+            <field>Opportunity.Name</field>
+            <operation>contains</operation>
+            <value>rfq</value>
+        </filterItems>
+        <filterItems>
+            <field>Opportunity.Name</field>
+            <operation>contains</operation>
+            <value>rfi</value>
+        </filterItems>
+        <filterItems>
+            <field>Opportunity.Name</field>
+            <operation>contains</operation>
+            <value>RFQ</value>
+        </filterItems>
+        <filterItems>
+            <field>Opportunity.Name</field>
+            <operation>contains</operation>
+            <value>RFP</value>
+        </filterItems>
+        <filterItems>
+            <field>Opportunity.Name</field>
+            <operation>contains</operation>
+            <value>RFI</value>
+        </filterItems>
+        <filterItems>
+            <field>Opportunity.StageName</field>
+            <operation>contains</operation>
+            <value>Closed Won</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>RFP_Link_Lookup</relationshipLabel>
+    <relationshipName>RFP_Link</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ NOT(ISBLANK(Account__c)), Account__r.Region_Name__c,
+IF(
+ NOT(ISBLANK(Opportunity__c)), Opportunity__r.Region_Name__c,
+IF(
+ NOT(ISBLANK(Contact__c)), Contact__r.Region_Name__c,
+ &apos;&apos;)))</formula>
+    <label>Region Name</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

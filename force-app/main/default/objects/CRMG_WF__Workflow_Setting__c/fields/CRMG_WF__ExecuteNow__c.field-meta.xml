@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMG_WF__ExecuteNow__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Selecting &quot;Checked&quot; below makes the &quot;Execute Now&quot; button visible by default on the Workflow Rule Detail page.</description>
+    <externalId>false</externalId>
+    <label>Execute Now</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

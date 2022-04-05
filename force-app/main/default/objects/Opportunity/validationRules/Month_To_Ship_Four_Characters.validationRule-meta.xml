@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Month_To_Ship_Four_Characters</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR( LEN(Month_to_Ship__c) &lt;&gt; 4, NOT(REGEX(Month_to_Ship__c,&quot;^[0-9]+$&quot;)))</errorConditionFormula>
+    <errorDisplayField>Month_to_Ship__c</errorDisplayField>
+    <errorMessage>Please enter 4 digits</errorMessage>
+</ValidationRule>

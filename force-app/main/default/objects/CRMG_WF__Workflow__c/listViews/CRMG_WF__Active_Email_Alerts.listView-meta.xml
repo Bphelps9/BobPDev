@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMG_WF__Active_Email_Alerts</fullName>
+    <columns>NAME</columns>
+    <columns>CRMG_WF__Object_Formula__c</columns>
+    <columns>CRMG_WF__Evaluation_Criteria__c</columns>
+    <columns>CRMG_WF__Description__c</columns>
+    <columns>CRMG_WF__Rule_Criteria_Query__c</columns>
+    <columns>CRMG_WF__Filter_Logic__c</columns>
+    <columns>CRMG_WF__isActive__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CRMG_WF__Workflow_Action_Type__c</field>
+        <operation>includes</operation>
+        <value>Email Alert</value>
+    </filters>
+    <filters>
+        <field>CRMG_WF__isActive__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>3. All Active Email Alerts</label>
+</ListView>

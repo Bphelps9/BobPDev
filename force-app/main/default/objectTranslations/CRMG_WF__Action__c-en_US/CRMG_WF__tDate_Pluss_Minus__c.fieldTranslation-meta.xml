@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>CRMG_WF__tDate_Pluss_Minus__c</name>
+    <picklistValues>
+        <masterLabel>minus</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>plus</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

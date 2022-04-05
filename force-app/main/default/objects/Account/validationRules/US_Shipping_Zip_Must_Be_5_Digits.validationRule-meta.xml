@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>US_Shipping_Zip_Must_Be_5_Digits</fullName>
+    <active>true</active>
+    <description>if the Shipping Zip is in the US it must be 5 digits long to match the Territory ID for assignment</description>
+    <errorConditionFormula>LEN(ShippingPostalCode) &lt;&gt; 5 &amp;&amp; ShippingCountry = &quot;US&quot;</errorConditionFormula>
+    <errorDisplayField>ShippingPostalCode</errorDisplayField>
+    <errorMessage>If the Country is &quot;US&quot; the Zip Code must be 5 digits in length</errorMessage>
+</ValidationRule>

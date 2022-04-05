@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>School_Closure_End__c</fullName>
+    <description>Autofill school closure end date from account</description>
+    <externalId>false</externalId>
+    <formula>if(
+MONTH(Month_to_Ship_Date__c)= MONTH(Account.Fall_Break_End__c) 
+, Account.Fall_Break_End__c,
+if(
+MONTH(Month_to_Ship_Date__c)= MONTH(Account.Thanksgiving_Break_End__c)
+, Account.Thanksgiving_Break_End__c, 
+if(
+MONTH(Month_to_Ship_Date__c)= MONTH(Account.Winter_Holiday_End__c) ||
+MONTH(ADDMONTHS(Month_to_Ship_Date__c,1))= MONTH(Account.Winter_Holiday_End__c) 
+, Account.Winter_Holiday_End__c, 
+if(
+MONTH(Month_to_Ship_Date__c)= MONTH(Account.Mid_Winter_Feb_Break_End__c) 
+, Account.Mid_Winter_Feb_Break_End__c, 
+if(
+MONTH(Month_to_Ship_Date__c)= MONTH(Account.Mardi_Gras_End__c) 
+, Account.Mardi_Gras_End__c, 
+if(
+MONTH(Month_to_Ship_Date__c)= MONTH(Account.Mid_Winter_Mar_Break_End__c)
+, Account.Mid_Winter_Mar_Break_End__c, 
+if(
+MONTH(Month_to_Ship_Date__c)= MONTH(Account.Spring_April_Break_End__c) 
+, Account.Spring_April_Break_End__c, 
+if(
+MONTH(Month_to_Ship_Date__c)= MONTH(Account.Spring_May_Break_End__c) 
+, Account.Spring_May_Break_End__c, NULL) 
+)))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>School Closure End</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

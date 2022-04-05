@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARC_Sage_ItemMap_SubHeadingI__c</fullName>
+    <description>ARC_ICRM_SB_ItemMap.subheadingid</description>
+    <externalId>false</externalId>
+    <label>ARC_Sage_ItemMap_SubHeadingId</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMG_WF__Validate_Rule_Criteria_Query</fullName>
+    <active>false</active>
+    <description>validate Rule Criteria query</description>
+    <errorConditionFormula>IF( NOT( ISNULL(CRMG_WF__Rule_Criteria_Query__c ) ), 
+NOT(REGEX(CRMG_WF__Rule_Criteria_Query__c , &quot;\\b(?i)where [a-zA-Z0-9_#-+!]*[ ]*[!]*(=|is)[ ]*[a-zA-Z0-9&apos;\&quot;_#-+!][a-zA-Z0-9&apos;\&quot;_#-+!]*&quot;)), 
+FALSE 
+)</errorConditionFormula>
+    <errorDisplayField>CRMG_WF__Rule_Criteria_Query__c</errorDisplayField>
+    <errorMessage>Invalid Rule Criteria Query</errorMessage>
+</ValidationRule>

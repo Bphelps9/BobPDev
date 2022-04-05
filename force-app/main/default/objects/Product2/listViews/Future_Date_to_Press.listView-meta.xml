@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Future_Date_to_Press</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Date_To_Press__c</columns>
+    <columns>ItemKey__c</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Date_To_Press__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Future Date to Press</label>
+</ListView>

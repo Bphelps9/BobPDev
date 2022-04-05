@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RFP_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>RFP Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Books</fullName>
+                <default>false</default>
+                <label>Books</label>
+            </value>
+            <value>
+                <fullName>Catalog Materials</fullName>
+                <default>false</default>
+                <label>Catalog Materials</label>
+            </value>
+            <value>
+                <fullName>Catalog PD</fullName>
+                <default>false</default>
+                <label>Catalog PD</label>
+            </value>
+            <value>
+                <fullName>Core Adoption</fullName>
+                <default>false</default>
+                <label>Core Adoption</label>
+            </value>
+            <value>
+                <fullName>PD</fullName>
+                <default>false</default>
+                <label>PD</label>
+            </value>
+            <value>
+                <fullName>State</fullName>
+                <default>false</default>
+                <label>State</label>
+            </value>
+            <value>
+                <fullName>Technology</fullName>
+                <default>false</default>
+                <label>Technology</label>
+            </value>
+            <value>
+                <fullName>Supplemental</fullName>
+                <default>false</default>
+                <label>Supplemental</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

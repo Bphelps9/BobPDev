@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Exception__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason for Exception</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Funding Deadline</fullName>
+                <default>false</default>
+                <label>Funding Deadline</label>
+            </value>
+            <value>
+                <fullName>Implementation Start</fullName>
+                <default>false</default>
+                <label>Implementation Start</label>
+            </value>
+            <value>
+                <fullName>PD Event</fullName>
+                <default>false</default>
+                <label>PD Event</label>
+            </value>
+            <value>
+                <fullName>Revenue Shortfall</fullName>
+                <default>false</default>
+                <label>Revenue Shortfall</label>
+            </value>
+            <value>
+                <fullName>RFP</fullName>
+                <default>false</default>
+                <label>RFP</label>
+            </value>
+            <value>
+                <fullName>Sales Event/Conference</fullName>
+                <default>false</default>
+                <label>Sales Event/Conference</label>
+            </value>
+            <value>
+                <fullName>Sales Presentation</fullName>
+                <default>false</default>
+                <label>Sales Presentation</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

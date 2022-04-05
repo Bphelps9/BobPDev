@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AccessEquity</fullName>
+                <default>false</default>
+                <label>AccessEquity</label>
+            </value>
+            <value>
+                <fullName>Billing/DualLang</fullName>
+                <default>false</default>
+                <label>Billing/DualLang</label>
+            </value>
+            <value>
+                <fullName>C&amp;I</fullName>
+                <default>false</default>
+                <label>C&amp;I</label>
+            </value>
+            <value>
+                <fullName>Charter</fullName>
+                <default>false</default>
+                <label>Charter</label>
+            </value>
+            <value>
+                <fullName>Dist Ldrshp</fullName>
+                <default>false</default>
+                <label>Dist Ldrshp</label>
+            </value>
+            <value>
+                <fullName>ELL</fullName>
+                <default>false</default>
+                <label>ELL</label>
+            </value>
+            <value>
+                <fullName>ELLs</fullName>
+                <default>false</default>
+                <label>ELLs</label>
+            </value>
+            <value>
+                <fullName>EarlyChldhd</fullName>
+                <default>false</default>
+                <label>EarlyChldhd</label>
+            </value>
+            <value>
+                <fullName>ExpLrng</fullName>
+                <default>false</default>
+                <label>ExpLrng</label>
+            </value>
+            <value>
+                <fullName>FedProg/TItle I</fullName>
+                <default>false</default>
+                <label>FedProg/TItle I</label>
+            </value>
+            <value>
+                <fullName>Native American</fullName>
+                <default>false</default>
+                <label>Native American</label>
+            </value>
+            <value>
+                <fullName>PD</fullName>
+                <default>false</default>
+                <label>PD</label>
+            </value>
+            <value>
+                <fullName>Secondary</fullName>
+                <default>false</default>
+                <label>Secondary</label>
+            </value>
+            <value>
+                <fullName>SpecEd</fullName>
+                <default>false</default>
+                <label>SpecEd</label>
+            </value>
+            <value>
+                <fullName>Turnaround</fullName>
+                <default>false</default>
+                <label>Turnaround</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

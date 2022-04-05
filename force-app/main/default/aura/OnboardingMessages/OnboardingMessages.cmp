@@ -1,0 +1,5 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+  <div class="slds-box slds-theme_default">
+    <ui:outputText value="Here is a link to a video showing how to use the Opportunity Record Page."/>
+    </div>
+</aura:component>

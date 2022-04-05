@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_Name__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup Relationship to the Territory Name. This allows us to Group TerritoryIDs/ZipCodes under Territories</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup Relationship to the Territory Name. This allows us to Group TerritoryIDs/ZipCodes under Territories</inlineHelpText>
+    <label>Territory Name</label>
+    <referenceTo>TerritoryName__c</referenceTo>
+    <relationshipLabel>TerritoryIDs</relationshipLabel>
+    <relationshipName>TerritoryIDs</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

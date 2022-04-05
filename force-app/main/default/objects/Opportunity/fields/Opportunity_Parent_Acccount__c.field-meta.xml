@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Parent_Acccount__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(ISBlank(Account.ParentId),  &apos;&apos;  , Account.Parent.Name)</formula>
+    <label>Parent Acccount</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

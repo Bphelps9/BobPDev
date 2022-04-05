@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMG_WF__Trigger__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Trigger</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>immediate</fullName>
+                <default>false</default>
+                <label>immediate</label>
+            </value>
+            <value>
+                <fullName>time dependent</fullName>
+                <default>false</default>
+                <label>time dependent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

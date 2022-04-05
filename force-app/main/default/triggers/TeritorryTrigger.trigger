@@ -1,0 +1,1 @@
+trigger TeritorryTrigger on Territory_ID__c (before insert) {}

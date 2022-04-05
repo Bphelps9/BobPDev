@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARC_signed_by__c</fullName>
+    <externalId>false</externalId>
+    <label>ARC signed by</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nate Smith</fullName>
+                <default>false</default>
+                <label>Nate Smith</label>
+            </value>
+            <value>
+                <fullName>Bill Sarnese</fullName>
+                <default>false</default>
+                <label>Bill Sarnese</label>
+            </value>
+            <value>
+                <fullName>Al Struzinski</fullName>
+                <default>false</default>
+                <label>Al Struzinski</label>
+            </value>
+            <value>
+                <fullName>Liz Cline</fullName>
+                <default>false</default>
+                <label>Liz Cline</label>
+            </value>
+            <value>
+                <fullName>Gina Cline</fullName>
+                <default>false</default>
+                <label>Gina Cline</label>
+            </value>
+            <value>
+                <fullName>Laura Wilner</fullName>
+                <default>false</default>
+                <label>Laura Wilner</label>
+            </value>
+            <value>
+                <fullName>Barb Smith</fullName>
+                <default>false</default>
+                <label>Barb Smith</label>
+            </value>
+            <value>
+                <fullName>Nate Getchell</fullName>
+                <default>false</default>
+                <label>Nate Getchell</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

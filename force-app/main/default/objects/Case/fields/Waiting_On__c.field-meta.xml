@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Waiting_On__c</fullName>
+    <externalId>false</externalId>
+    <label>Waiting On</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Waiting on RVP Approval</fullName>
+                <default>false</default>
+                <label>Waiting on RVP Approval</label>
+            </value>
+            <value>
+                <fullName>Waiting on Sales Ops Approval</fullName>
+                <default>false</default>
+                <label>Waiting on Sales Ops Approval</label>
+            </value>
+            <value>
+                <fullName>Waiting on Demand Processing</fullName>
+                <default>false</default>
+                <label>Waiting on Demand Processing</label>
+            </value>
+            <value>
+                <fullName>Waiting on Ops</fullName>
+                <default>false</default>
+                <label>Waiting on Ops</label>
+            </value>
+            <value>
+                <fullName>Waiting on Sales</fullName>
+                <default>false</default>
+                <label>Waiting on Sales</label>
+            </value>
+            <value>
+                <fullName>Waiting on Finance</fullName>
+                <default>false</default>
+                <label>Waiting on Finance</label>
+            </value>
+            <value>
+                <fullName>Waiting on Customer</fullName>
+                <default>false</default>
+                <label>Waiting on Customer</label>
+            </value>
+            <value>
+                <fullName>Waiting on CI</fullName>
+                <default>false</default>
+                <label>Waiting on CI</label>
+            </value>
+            <value>
+                <fullName>Waiting on CI - Production</fullName>
+                <default>false</default>
+                <label>Waiting on CI - Production</label>
+            </value>
+            <value>
+                <fullName>Waiting on Digital Fulfillment</fullName>
+                <default>false</default>
+                <label>Waiting on Digital Fulfillment</label>
+            </value>
+            <value>
+                <fullName>Waiting on Returns</fullName>
+                <default>false</default>
+                <label>Waiting on Returns</label>
+            </value>
+            <value>
+                <fullName>Waiting on Software Development</fullName>
+                <default>false</default>
+                <label>Waiting on Software Development</label>
+            </value>
+            <value>
+                <fullName>Waiting on Over 90 Day Approval</fullName>
+                <default>false</default>
+                <label>Waiting on Over 90 Day Approval</label>
+            </value>
+            <value>
+                <fullName>Waiting on Sales Ops</fullName>
+                <default>false</default>
+                <label>Waiting on Sales Ops</label>
+            </value>
+            <value>
+                <fullName>Waiting on Digital Ops</fullName>
+                <default>false</default>
+                <label>Waiting on Digital Ops</label>
+            </value>
+            <value>
+                <fullName>Waiting on CI - Operations</fullName>
+                <default>false</default>
+                <label>Waiting on CI - Operations</label>
+            </value>
+            <value>
+                <fullName>Waiting on Receiving</fullName>
+                <default>false</default>
+                <label>Waiting on Receiving</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

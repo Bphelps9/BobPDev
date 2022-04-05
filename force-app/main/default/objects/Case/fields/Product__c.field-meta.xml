@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <description>Ticket Category name changed to product</description>
+    <externalId>false</externalId>
+    <label>Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Basket</fullName>
+                <default>false</default>
+                <label>Basket</label>
+            </value>
+            <value>
+                <fullName>Basket Label/Book Theme Sticker</fullName>
+                <default>false</default>
+                <label>Basket Label/Book Theme Sticker</label>
+            </value>
+            <value>
+                <fullName>Collection</fullName>
+                <default>false</default>
+                <label>Collection</label>
+            </value>
+            <value>
+                <fullName>Consumables</fullName>
+                <default>false</default>
+                <label>Consumables</label>
+            </value>
+            <value>
+                <fullName>Core Text</fullName>
+                <default>false</default>
+                <label>Core Text</label>
+            </value>
+            <value>
+                <fullName>Framework</fullName>
+                <default>false</default>
+                <label>Framework</label>
+            </value>
+            <value>
+                <fullName>Individual Title</fullName>
+                <default>false</default>
+                <label>Individual Title</label>
+            </value>
+            <value>
+                <fullName>Order</fullName>
+                <default>false</default>
+                <label>Order</label>
+            </value>
+            <value>
+                <fullName>SchoolPace</fullName>
+                <default>false</default>
+                <label>SchoolPace</label>
+            </value>
+            <value>
+                <fullName>Skills Card</fullName>
+                <default>false</default>
+                <label>Skills Card</label>
+            </value>
+            <value>
+                <fullName>Take Home Kit</fullName>
+                <default>false</default>
+                <label>Take Home Kit</label>
+            </value>
+            <value>
+                <fullName>Toolkit</fullName>
+                <default>false</default>
+                <label>Toolkit</label>
+            </value>
+            <value>
+                <fullName>CRC</fullName>
+                <default>false</default>
+                <label>CRC</label>
+            </value>
+            <value>
+                <fullName>eLibraries</fullName>
+                <default>false</default>
+                <label>eLibraries</label>
+            </value>
+            <value>
+                <fullName>SchoolPace Connect/eBundles</fullName>
+                <default>false</default>
+                <label>SchoolPace Connect/eBundles</label>
+            </value>
+            <value>
+                <fullName>Tax</fullName>
+                <default>false</default>
+                <label>Tax</label>
+            </value>
+            <value>
+                <fullName>ARC Adventures</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ARC Adventures</label>
+            </value>
+            <value>
+                <fullName>ARC Press Distribution</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ARC Press Distribution</label>
+            </value>
+            <value>
+                <fullName>ARC Web Site</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ARC Web Site</label>
+            </value>
+            <value>
+                <fullName>Accts. Payable</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Accts. Payable</label>
+            </value>
+            <value>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Advertisement</label>
+            </value>
+            <value>
+                <fullName>American Rdg. At Home</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>American Rdg. At Home</label>
+            </value>
+            <value>
+                <fullName>Banner</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Banner</label>
+            </value>
+            <value>
+                <fullName>Books Falling Apart</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Books Falling Apart</label>
+            </value>
+            <value>
+                <fullName>Certificate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Certificate</label>
+            </value>
+            <value>
+                <fullName>Core</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Core Text</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Customer satisfaction</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customer satisfaction</label>
+            </value>
+            <value>
+                <fullName>Customized Promotional Materials</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customized Promotional Materials</label>
+            </value>
+            <value>
+                <fullName>Damaged Product/Box</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Damaged Product/Box</label>
+            </value>
+            <value>
+                <fullName>Design</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Design</label>
+            </value>
+            <value>
+                <fullName>Design/Curriculum</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Design/Curriculum</label>
+            </value>
+            <value>
+                <fullName>Digital Materials</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Digital Materials</label>
+            </value>
+            <value>
+                <fullName>Eblast</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Eblast</label>
+            </value>
+            <value>
+                <fullName>Email Invite</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Email Invite</label>
+            </value>
+            <value>
+                <fullName>Expeditionary Learning</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Expeditionary Learning</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Grants/RFP/Proposals</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Grants/RFP/Proposals</label>
+            </value>
+            <value>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Inquiry</label>
+            </value>
+            <value>
+                <fullName>Internal Concern</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Internal Concern</label>
+            </value>
+            <value>
+                <fullName>Invoice Problems</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Invoice Problems</label>
+            </value>
+            <value>
+                <fullName>Missing Product</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Missing Product</label>
+            </value>
+            <value>
+                <fullName>NULL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NULL</label>
+            </value>
+            <value>
+                <fullName>Operations</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Operations</label>
+            </value>
+            <value>
+                <fullName>Order Entry</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Order Entry</label>
+            </value>
+            <value>
+                <fullName>PD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PD</label>
+            </value>
+            <value>
+                <fullName>PowerPoint</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PowerPoint</label>
+            </value>
+            <value>
+                <fullName>Press Release</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Press Release</label>
+            </value>
+            <value>
+                <fullName>Printer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Printer</label>
+            </value>
+            <value>
+                <fullName>Professional Dev</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Professional Dev</label>
+            </value>
+            <value>
+                <fullName>Publisher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Publisher</label>
+            </value>
+            <value>
+                <fullName>RFP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RFP</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>SchoolPace Connect/Unit eBundles</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SchoolPace Connect/Unit eBundles</label>
+            </value>
+            <value>
+                <fullName>Shipping Company</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shipping Company</label>
+            </value>
+            <value>
+                <fullName>Sign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sign</label>
+            </value>
+            <value>
+                <fullName>Slick</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Slick</label>
+            </value>
+            <value>
+                <fullName>Wrong/Duplicate Product</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wrong/Duplicate Product</label>
+            </value>
+            <value>
+                <fullName>eBundles</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>eBundles</label>
+            </value>
+            <value>
+                <fullName>new product release</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>new product release</label>
+            </value>
+            <value>
+                <fullName>orders</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>orders</label>
+            </value>
+            <value>
+                <fullName>program</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>program</label>
+            </value>
+            <value>
+                <fullName>shipment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>shipment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

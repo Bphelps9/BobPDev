@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NCES_Public_School_ID</fullName>
+    <active>false</active>
+    <description>Checks to see if this is a public school record and if so enforces the need for an NCES ID</description>
+    <errorConditionFormula>AND( 
+ISBLANK(ncessch__c),
+RecordType.Name = &apos;Public School&apos; 
+)</errorConditionFormula>
+    <errorMessage>Please enter an NCES ID for this school.</errorMessage>
+</ValidationRule>

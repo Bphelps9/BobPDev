@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_ClosedWon_Validation</fullName>
+    <active>true</active>
+    <description>Users with &quot;Account Manager&quot; profile are prevented from setting the Opportunity status to &quot;Closed - Lost&quot;.</description>
+    <errorConditionFormula>AND(
+  ISCHANGED(StageName),
+  ISPICKVAL(StageName, &apos;Closed Won&apos;),
+  $Profile.Name = &apos;Account Manager&apos;
+)</errorConditionFormula>
+    <errorMessage>Please reach out to your PC to change the status of this Opportunity.</errorMessage>
+</ValidationRule>

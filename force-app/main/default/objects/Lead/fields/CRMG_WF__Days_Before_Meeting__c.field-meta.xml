@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMG_WF__Days_Before_Meeting__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is added by Workflow fro Professional Edition. Its populated by a trigger, each time an Event is scheduled&quot;. It allows you to build workflow rules based on specific meetings that have been created. It also enables your to leverage  merging Meeting details into email templates.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+CRMG_WF__Next_Meeting_Date_Time__c &gt; NOW(),
+CRMG_WF__Next_Meeting_Date_Time__c - NOW(),
+0
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Days Before Meeting</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

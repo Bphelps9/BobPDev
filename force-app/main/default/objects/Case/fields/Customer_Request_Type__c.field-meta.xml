@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Request_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Customer Request Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Problem</fullName>
+                <default>true</default>
+                <label>Problem</label>
+            </value>
+            <value>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+                <label>Feature Request</label>
+            </value>
+            <value>
+                <fullName>Question</fullName>
+                <default>false</default>
+                <label>Question</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Customer Concern</controllingFieldValue>
+            <valueName>Problem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Concern</controllingFieldValue>
+            <valueName>Feature Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Concern</controllingFieldValue>
+            <valueName>Question</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

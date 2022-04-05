@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSS_SCHOOL_ID__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Private School ID</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Private School ID</inlineHelpText>
+    <label>NCES Private School ID</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

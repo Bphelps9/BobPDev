@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Confidence_level</fullName>
+    <active>true</active>
+    <errorConditionFormula>If( CASESAFEID( RecordTypeId ) == &apos;0123h000000tuXKAAY&apos;,
+    If( ISPICKVAL(StageName,&apos;1-Discover&apos;) || ISPICKVAL(StageName,&apos;2-Design&apos;) ||  ISPICKVAL(StageName,&apos;3-Prove&apos;) , 
+       If(ISPICKVAL(Confidence_Level__c,&apos;Firm&apos;) ||ISPICKVAL(Confidence_Level__c,&apos;Possible&apos;) || ISPICKVAL(Confidence_Level__c,&apos;Expected&apos;),false,true),
+
+If(  ISPICKVAL(StageName,&apos;4-Close&apos;) , If(ISPICKVAL(Confidence_Level__c,&apos;Firm&apos;) , false,true ),
+If( ISPICKVAL(StageName,&apos;Target&apos;) || ISPICKVAL(StageName,&apos;Prospect&apos;) || ISPICKVAL(StageName,&apos;Qualify&apos;) ,
+If(  ISPICKVAL(Confidence_Level__c,&apos;Yes&apos;) ||ISPICKVAL(Confidence_Level__c,&apos;No&apos;) ,false,true ),false)
+
+
+))
+
+,false)</errorConditionFormula>
+    <errorDisplayField>Confidence_Level__c</errorDisplayField>
+    <errorMessage>Confidence Levels at:
+
+- &apos;Target&apos;, &apos;Prospect&apos;, and &apos;Qualify&apos; stages must be &apos;yes&apos; or &apos;no&apos;.  
+- &apos;Discover&apos;, &apos;Design&apos;, and &apos;Prove&apos; stages must be &apos;possible&apos;, &apos;firm&apos; or &apos;expected&apos;.
+- &apos;Close&apos; stage must be &apos;firm&apos;</errorMessage>
+</ValidationRule>

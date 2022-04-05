@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ShippingZipcodeFormat_USA</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+OR(ShippingCountry= &quot;USA&quot;, ShippingCountry= &quot;US&quot;, ShippingCountry =&quot;&quot;),
+NOT(REGEX(ShippingPostalCode, &quot;\\d{5}(-\\d{4})?&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>ShippingPostalCode</errorDisplayField>
+    <errorMessage>Please enter a zip code that is 5 digits or 5-4 digits for US Zip Codes. If the Zip Code you&apos;re providing is not for the US, please provide a county name.</errorMessage>
+</ValidationRule>

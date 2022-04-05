@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Opportunity_should_have_PO_Number</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(  IsWon =true , IF(  ISBLANK(   PO_Number__c ),true,false ), false)</errorConditionFormula>
+    <errorDisplayField>PO_Number__c</errorDisplayField>
+    <errorMessage>You should have a PO Number to close the deal. This is usually entered and moved by a PC.</errorMessage>
+</ValidationRule>

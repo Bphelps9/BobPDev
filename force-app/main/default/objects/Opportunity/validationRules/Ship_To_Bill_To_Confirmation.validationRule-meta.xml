@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ship_To_Bill_To_Confirmation</fullName>
+    <active>true</active>
+    <description>Must be checked when status is Pending, or Action Needed must be filled out.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Proposal_Status__c, &apos;Pending&apos;),
+Ship_to_Bill_to_Confirmed__c = FALSE,
+ISBLANK(Action_needed__c)
+)</errorConditionFormula>
+    <errorMessage>Ship to/Bill to addresses must be confirmed or Action Needed field filled out (with -ADDR added to your initials, i.e. @EJ-ADDR) to set this opportunity to Pending.</errorMessage>
+</ValidationRule>

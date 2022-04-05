@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RI_Data</fullName>
+    <columns>NAME</columns>
+    <columns>FILETYPE__c</columns>
+    <columns>PID__c</columns>
+    <columns>PARENTPID__c</columns>
+    <columns>UPID__c</columns>
+    <columns>UNIV__c</columns>
+    <columns>INST_TYPE__c</columns>
+    <columns>INST_SPEC__c</columns>
+    <columns>NCESHID__c</columns>
+    <columns>INST__c</columns>
+    <columns>MSTREET__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>MSTATE__c</field>
+        <operation>equals</operation>
+        <value>RI</value>
+    </filters>
+    <label>RI Data</label>
+</ListView>

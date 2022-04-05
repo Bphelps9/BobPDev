@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EX_Do_We_Have_the_PO</fullName>
+    <active>true</active>
+    <description>If the field &quot;Do we have the PO?&quot; is &quot;No&quot;, &quot;When do we expect to have the PO?&quot; must be filled.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(  Do_we_have_the_PO__c , &apos;No&apos;),
+ISBLANK(  When_do_we_expect_to_have_the_PO__c  ))</errorConditionFormula>
+    <errorDisplayField>When_do_we_expect_to_have_the_PO__c</errorDisplayField>
+    <errorMessage>Please provide when we expect to receive the PO for this exception.</errorMessage>
+</ValidationRule>

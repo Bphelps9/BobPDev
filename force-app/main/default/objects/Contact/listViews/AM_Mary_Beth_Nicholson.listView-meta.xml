@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Mary_Beth_Nicholson</fullName>
+    <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account.AM__c</field>
+        <operation>equals</operation>
+        <value>Mary Beth Nicholson</value>
+    </filters>
+    <filters>
+        <field>Account.AM__c</field>
+        <operation>equals</operation>
+        <value>Marybeth Nicholson</value>
+    </filters>
+    <filters>
+        <field>AM__c</field>
+        <operation>contains</operation>
+        <value>beth</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS2_STATE</field>
+        <operation>equals</operation>
+        <value>OK</value>
+    </filters>
+    <label>AM - Marybeth Nicholson</label>
+</ListView>

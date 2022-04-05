@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NCES_District_ID</fullName>
+    <active>false</active>
+    <description>This rule is to make sure an account with a record type of District has a District NCES ID</description>
+    <errorConditionFormula>AND(
+ ISBLANK( ncesleaid__c ),
+ RecordType.Name = &apos;District&apos;
+)</errorConditionFormula>
+    <errorMessage>Please enter the NCES District ID for this account</errorMessage>
+</ValidationRule>

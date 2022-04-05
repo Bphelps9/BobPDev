@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conga_Composer_ARCPROPOSAL</fullName>
+    <availability>online</availability>
+    <description>Originally created by Conga Solution Manager. Date of last use of Update Button from Conga Solution record: https://americanreadingcompany--arctest--apxtconga4.visualforce.com/a0g110000097YRCAA2
+30-Mar-2021 11:29:48 AM</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>false</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>660</height>
+    <isResizable>false</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Proposal Report_DELETE</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!Opportunity.Id}
+
+&amp;QueryId=[ARCProposalQuery]0Q_002EA3800821,
+[PRICINGSUMMARYMateri]0Q_004EA3093521,
+[PricingSummaryPD]0Q_005EA3168432,
+[PricingSummaryDigita]0Q_006EA3131127
+
+&amp;TemplateId=0T_013EA3163674
+
+&amp;DefaultPDF=1</url>
+    <width>900</width>
+</WebLink>

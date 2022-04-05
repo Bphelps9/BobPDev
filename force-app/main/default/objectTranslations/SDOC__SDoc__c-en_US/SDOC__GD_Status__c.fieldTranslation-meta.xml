@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>SDOC__GD_Status__c</name>
+    <picklistValues>
+        <masterLabel>Field Is Deprecated (Use GD_Status_Text__c instead)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Link to Attachment</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Linked to Google Doc</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Linked</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

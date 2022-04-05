@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LADOE_Products</fullName>
+    <active>true</active>
+    <businessProcess>LADOE Products</businessProcess>
+    <description>Opportunity Type for LADOE Products</description>
+    <label>LADOE Products</label>
+    <picklistValues>
+        <picklist>Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Closed_Lost_Competitor__c</picklist>
+        <values>
+            <fullName>All About Reading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amplify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Benchmark Advance %28Benchmark%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bookworms %28Open Up%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CKLA %28Core Knowledge%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collaborative Classroom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collections %28HMH%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>District-Created Curriculum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EL Education Modules</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELA Guidebooks %28LADOE%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F%26P Classroom %28F%26P%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Into Literature %28HMH%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Into Reading %28HMH%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Journeys %28HMH%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>My Perspective %28Savvas%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not ARC Core</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reach for Reading %28Cengage%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reading Street %28Savvas%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ReadyGen %28Savvas%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scholastic Literacy %28Scholastic%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Springboard %28College Board%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Status Quo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Storytown %28HMH%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Studysync %28McGraw-Hill%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Units of Study %28Lucy Caulkins%2FHeinemann%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wit %26 Wisdom %28Great Minds%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wonders %28McGraw-Hill%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Closed_Lost_Reason__c</picklist>
+        <values>
+            <fullName>High Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insufficient Digital Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insufficient MLL Supports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Explicit Grammar Instruction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Explicit Handwriting Instruction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Explicit Spelling Instruction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not ARC Core</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Aligned to State Standards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Philosophically Aligned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Scripted Enough</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not on State-Approved List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phonics - No Explicit Instruction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phonics - Not Whole Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Science of Reading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended%2FAbandoned Adoption Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timelines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Too Complicated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Confidence_Level__c</picklist>
+        <values>
+            <fullName>Expected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Possible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Grades_Year_Verified_for_Current_Stage__c</picklist>
+        <values>
+            <fullName>1-Discover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-Prove</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-Close</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Implementing_Grades__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adult</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-K</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Implementing_School_Year__c</picklist>
+        <values>
+            <fullName>2020-2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2021-2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2022-2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2024-2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2025-2026</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2026-2027</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interest_Source__c</picklist>
+        <values>
+            <fullName>ARC summit event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advisory board</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colloquium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference Booth%2Fnetworking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ed Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IRLA%2FENIL demo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National email blast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seeing is believing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Territory E-blast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>AM Outreach%2FCampaign Move</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AM Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARC In-Person Colloquium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advisory Board Member Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advisory Board Member Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Earned Media %28e%2Eg%2E news coverage%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ed Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Marketing Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other In-Person Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional Marketing Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Review List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State-Level Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Lead</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prog_Order_Includes__c</picklist>
+        <values>
+            <fullName>100 BC - %28English and%2For Spanish%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARC Core - %28English and%2For Spanish%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Both 100 BC and ARC Core - %28English and%2For Spanish%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specific Core Text Reorder</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Proposal_Status__c</picklist>
+        <values>
+            <fullName>Closed - Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RFP_Type__c</picklist>
+        <values>
+            <fullName>Books</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catalog Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catalog PD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Adoption</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Solution_Type__c</picklist>
+        <values>
+            <fullName>100 BC Eng</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100 BC Eng %26 Span</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100 BC Span</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARC Core Eng</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARC Core Eng %26 Span</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARC Core Span</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Classroom Lib%2FText</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENIL Starter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IRLA Starter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IRLA%2FENIL Starter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leadership Learning Series</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lit Labs Eng</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lit Labs Eng %26 Span</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lit Labs Span</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Lab Eng %26 Span</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Labs Eng</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Span</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer Semester</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Take Home Kits</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Split_Reason__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Chain Split</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>District Expansion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pilot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reorder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>School Expansion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_TerritoryID__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Forms a join relationship to the TerritoryID that this account is assigned to, which will in turn inherit the Territory that the TerritoryID is assigned to.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Forms a join relationship to the TerritoryID that this account is assigned to, which will in turn inherit the Territory that the TerritoryID is assigned to.</inlineHelpText>
+    <label>Related TerritoryID</label>
+    <referenceTo>Territory_ID__c</referenceTo>
+    <relationshipLabel>Accounts</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

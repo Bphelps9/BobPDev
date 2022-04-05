@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grades_Year_Verified_for_Current_Stage__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Make sure that the &apos;Implementing School Year&apos; and &apos;Implementing Grades&apos; fields are accurate at each pipeline level and updated if necessary.  This field should match the pipeline stage listed in the &apos;Stage&apos; field.</inlineHelpText>
+    <label>Grades &amp; Year Verified for Current Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Pipeline_Stages</valueSetName>
+    </valueSet>
+</CustomField>

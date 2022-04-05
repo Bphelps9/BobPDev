@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Must_be_Received_July_1_to_15_2022</fullName>
+    <active>true</active>
+    <description>No need by dates allowed between 7/1/2022 and 7/15/2022</description>
+    <errorConditionFormula>AND(Must_Be_Received__c &gt;= DATE(2022,7,1),
+Must_Be_Received__c &lt;= DATE(2022,7,15))</errorConditionFormula>
+    <errorMessage>No Must be Received Dates allowed between July 1st and July 15th, 2022. Please remove or change Must be Received Date</errorMessage>
+</ValidationRule>

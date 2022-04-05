@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digital_Exception_Case</fullName>
+    <active>true</active>
+    <businessProcess>Digital Exception Case</businessProcess>
+    <description>Case Type for Digital Exceptions</description>
+    <label>Digital Exception Case</label>
+    <picklistValues>
+        <picklist>Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Auto_Approval_Process_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Request_Type__c</picklist>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_s_Experience__c</picklist>
+        <values>
+            <fullName>Green</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yellow</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Department__c</picklist>
+        <values>
+            <fullName>3rd Party Rostering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARC Press</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Fulfillment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations - Assembly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations - Fulfilment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Entry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PD Scheduling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnerships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Printer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Publisher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software Development</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Do_we_have_all_details_to_ship__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Do_we_have_the_PO__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_there_flexibility_in_the_product__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_this_event_scheduled_and_confirmed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Issue__c</picklist>
+        <values>
+            <fullName>Address Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Books Falling Apart</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damaged Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incomplete Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoice Problems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labeling Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Language</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rostering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software Bug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spectrum Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Product</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Order_Paid_For__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Over_90_Day_Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product__c</picklist>
+        <values>
+            <fullName>Basket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basket Label%2FBook Theme Sticker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Text</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Framework</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SchoolPace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SchoolPace Connect%2FeBundles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skills Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Take Home Kit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toolkit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eLibraries</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_for_Exception__c</picklist>
+        <values>
+            <fullName>Implementation Start</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PD Event</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Digital Exception</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Waiting_On__c</picklist>
+        <values>
+            <fullName>Waiting on Demand Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting on Digital Ops</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting on RVP Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting on Sales Ops</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Will_the_opportunity_s_need_to_be_split__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

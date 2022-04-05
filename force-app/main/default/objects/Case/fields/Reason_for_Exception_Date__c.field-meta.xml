@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Exception_Date__c</fullName>
+    <description>If the field &quot;Request for Exception&quot; is &quot;Funding Deadline, Implementation Start, PD Event, Sales Event/Conference, Sales Presentation&quot;, this field must be filled.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If the field &quot;Request for Exception&quot; is &quot;Funding Deadline, Implementation Start, PD Event, Sales Event/Conference, Sales Presentation&quot;, this field must be filled.</inlineHelpText>
+    <label>Reason for Exception Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

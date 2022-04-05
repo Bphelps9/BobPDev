@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_View</fullName>
+    <fields>Name</fields>
+    <fields>AccountNumber</fields>
+    <fields>ParentId</fields>
+    <fields>Region_Name__c</fields>
+    <fields>Territory_Name__c</fields>
+    <fields>Website</fields>
+    <fields>Phone</fields>
+    <fields>ShippingAddress</fields>
+    <label>Sales View</label>
+</CompactLayout>

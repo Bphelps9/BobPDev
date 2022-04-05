@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Id_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>If( ISPICKVAL(No_NCES_Data__c  ,&apos;&apos;)  ,
+If(   OR(  
+NOT(AND( ncesleaid__c!=null, ncessch__c=null ,PSS_SCHOOL_ID__c=null )) &amp;&amp;  RecordType.Name =&apos;District&apos;,  
+NOT(AND( ncesleaid__c=null, ncessch__c!=null ,PSS_SCHOOL_ID__c=null )) &amp;&amp; RecordType.Name =&apos;Public School&apos;,
+NOT(AND( ncesleaid__c =null, ncessch__c=null ,PSS_SCHOOL_ID__c!=null )) &amp;&amp; RecordType.Name =&apos;Private School&apos;,
+NOT(AND( ncesleaid__c=null, ncessch__c=null ,PSS_SCHOOL_ID__c=null )) &amp;&amp; RecordType.Name =&apos;Other&apos;
+    ) 
+,true,false  )
+,false)</errorConditionFormula>
+    <errorMessage>NCES ID needed based on Record Type selected. Only (1) NCES ID will be accepted</errorMessage>
+</ValidationRule>

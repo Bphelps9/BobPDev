@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>MC4SF__AggregateHourlyCampaignStats</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>MC4SF__CampaignDetail</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>MC4SF__CampaignStats</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>MC4SF__Options</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>MC4SF__RelatedRecords</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>MC4SF__Tracking</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>MC4SF__UnsubscribesBounces</name>
+    </fieldSets>
+    <layouts>
+        <layout>MC Campaign Layout</layout>
+        <sections>
+            <label></label>
+            <section>Aggregate Hourly Campaign Stats</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Campaign Report</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Campaign Stats</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Options</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Related Records</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Tracking</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Unsubscribes/Bounces</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label></label>
+        <name>MC4SF__Retrieve_from_MailChimp_list</name>
+    </webLinks>
+</CustomObjectTranslation>

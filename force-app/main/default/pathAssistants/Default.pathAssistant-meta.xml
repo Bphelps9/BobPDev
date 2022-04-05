@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Lead Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;New Leads are people who:&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Have reached out to American Reading Company, generally, but not the Account Manager specifically.&lt;/li&gt;&lt;li&gt;The Account Manager has not yet personally reached out to.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Examples of New Leads include Webinar Attendees and Web Leads from ARC&amp;#39;s website&lt;/p&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Leads are in the Nuturing stage after the Account Manager has reached out to them personally but before the Account Manager knows whether there is a potential Opportunity.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Examples of activities during the Nuturing stage include personalized emails and phone calls.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;After the Nuturing stage, a Lead is either deleted or converted using the buttons in the upper right-hand corner. &lt;/p&gt;</info>
+        <picklistValueName>Nurturing</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;strong&gt;Congratulations! &lt;/strong&gt;Now it’s time to convert the lead record to an opportunity. Then, continue the qualification process with your new contact.</info>
+        <picklistValueName>Qualified</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;If your lead has neither the interest nor the authority to purchase from you, mark the lead &lt;b&gt;Unqualified&lt;/b&gt;. &lt;/p&gt;</info>
+        <picklistValueName>Unqualified</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

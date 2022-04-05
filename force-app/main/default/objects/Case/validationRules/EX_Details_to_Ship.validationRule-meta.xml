@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EX_Details_to_Ship</fullName>
+    <active>true</active>
+    <description>If the field &quot;Do we have all details to ship?&quot; is &quot;No&quot;, &quot;When will we have all details to ship?&quot; must be filled.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( Do_we_have_all_details_to_ship__c, &apos;No&apos;),
+ISBLANK( When_will_we_have_all_details_to_ship__c ))</errorConditionFormula>
+    <errorDisplayField>When_will_we_have_all_details_to_ship__c</errorDisplayField>
+    <errorMessage>Please provide when we will have all the details to ship for this exception.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Over_90_Day_Details_Needed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Order_Ship_Date__c &lt; DATEVALUE(CreatedDate)-90, OR( ISBLANK(Items_Requested__c), ISPICKVAL(Order_Paid_For__c, &quot;&quot; ) ) )</errorConditionFormula>
+    <errorMessage>Order Ship Date over 90 days ago - fill out all of the additional Over 90 Day Concern fields to continue. Case will need to be submitted for approval to move forward.</errorMessage>
+</ValidationRule>

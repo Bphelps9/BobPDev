@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_Details_Verification</fullName>
+    <active>false</active>
+    <errorConditionFormula>If(          
+ ISCHANGED(  StageName )  &amp;&amp; NOT(  ISPICKVAL( StageName , &apos;Closed Won&apos;)  ||  ISPICKVAL (StageName , &apos;Closed Lost&apos;)) ,
+If( Text(Grades_Year_Verified_for_Current_Stage__c) &lt;&gt; Text(StageName)  ,true,false ),false   
+)</errorConditionFormula>
+    <errorDisplayField>Grades_Year_Verified_for_Current_Stage__c</errorDisplayField>
+    <errorMessage>Please confirm that the implementation year and the implementing grades are accurate at this stage in the pipeline.</errorMessage>
+</ValidationRule>
